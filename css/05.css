@@ -1,0 +1,269 @@
+  *{
+    margin:0;
+	  padding:0;
+	  font-family:"ARIAL";
+  }
+  a{
+	  text-decoration:none;
+	}
+	#container{
+	  width:100%;
+	}
+	#header{
+	  width:100%;
+	}
+	#header>.bk>img{
+		height:80px;
+	}
+	#header>.bk{
+	  width:100%;
+	  border-bottom:3px solid #333;
+	}
+	#header>.bk>.title{
+	  margin-left:536px;
+	}
+	#nav{
+	  	border-bottom:1px solid #333;
+	}
+	#nav>ul{
+		width:1120px;
+		height:60px;
+		list-style:none;
+		margin:0 auto;
+	
+	}
+	#nav li{
+	  width:120px;
+		line-height:60px;
+		float:left;
+		text-align:center;
+		font-size:26px;
+		margin:0 10px;
+  }
+	#nav .lf a{
+	  background:#ac7d0d;
+		color:#fff;
+	}
+	#nav a{
+		color:#333;
+	}
+	#nav a:hover{
+	  background:#ac7d0d;
+		color:#fff;
+	}
+	#header .shuffling{
+	  height:500px;
+		width:100%;
+		margin-top:15px;
+		position:relative;
+	}
+	#header .shuffling>.c1{
+	  clear:both;
+	}
+	#header .shuffling img{
+	  width:100%;
+		height:100%;
+	}
+	#header .shuffling ul{
+	  list-style:none;
+		position:absolute;
+		bottom:20px;
+		left:675.5px;
+	}
+	#header .shuffling li{
+	  width:10px;
+		height:10px;
+		border-radius:50px;
+		background:#999;
+		float:left;
+		margin:0 4px;
+	}
+	#header .shuffling .l1{
+	  width:4px;
+		height:4px;
+		border:3px solid #fff;
+	}
+	#main{
+	  width:100%;
+	}
+	#main>.main_top{
+	  width:100%;
+		
+	}
+	.main_top>img{
+	  width:345px;
+		height:67px;
+		display:block;
+		margin:80px auto;
+	}
+	.main_top>.imgs{
+	  width:1000px;
+		height:826px;
+		margin:30px auto 80px;
+		display:flex;
+		flex-wrap:wrap;
+	  justify-content:space-between;
+	}
+	.main_top>.imgs>img{
+	  width:318px;
+		height:403px;
+	}
+	.main_top>.imgs>img:nth-child(2){
+	  height:433px;
+		margin-top:-30px;
+	}
+	.main_top>p{
+	  font-size:18px;
+	  color:#666;
+		margin-left:209px;
+	}
+	.center{
+	  width:100%;
+		height:760px;
+		background:#333;
+		position:relative;
+	}
+	.center>p{
+	  font-size:18px;
+		color:#fff;
+		display:inline-block;
+		margin:30px 0 20px 265px;
+	}
+	.center>.imgs{
+	  width:100%;
+		display:flex;
+		justify-content:space-between;
+	}
+	.center>.imgs>img{
+	  width:263px;
+		height:600px;
+	}
+	.center>.imgs>img:first-child{
+	  width:209px;
+		height:600px;
+	}
+	.center>.imgs>img:last-child{
+	  width:111px;
+		height:600px;
+	}
+	.center>ul{
+	  list-style:none;
+    position:absolute;
+		left:50%;
+		bottom:30px;
+	}
+	.center>ul>li{
+	  width:12px;
+		height:12px;
+		float:left;
+		border-radius:50%;
+		background:#fff;
+		margin:0 6px;
+	}
+	.center>ul>li:first-child{
+	  background:#ac7d0d;
+	}
+	.bottom{
+	  width:100%;
+	}
+	.bottom>img{
+	  width:345px;
+		height:125px;
+		display:block;
+		margin:70px auto 80px;
+	}
+	.bottom>.imgs{
+	  width:994px;
+		margin:0 auto 40px;
+		display:flex;
+		flex-wrap:wrap;
+		justify-content:space-between;
+	}
+	.bottom>.imgs>img{
+	  width:318px;
+		height:500px;
+	}
+	.bottom>.imgs>img:first-child{
+	  margin-bottom:20px;
+	}
+
+	#footer{
+	  width:100%
+	}
+	#footer>.order{
+	  height:370px;
+		background-image:url("../image/sy/28.png");
+	}
+	#footer>.order>h1{
+		width:545px;
+	  font-size:36px;
+		color:#fff;
+		margin:34px auto 0;
+	}
+	#footer>.order>p{
+	  width:216px;
+	  font-size:24px;
+		color:#fff;
+		margin:5px auto;
+	}
+	#footer>.order>h3{
+	  width:340px;
+		font-size:28px;
+		color:#fff;
+		margin:5px auto;
+	}
+	#footer>.order>.cx{
+		width:960px;
+	  height:50px;
+		margin:100px auto 0;
+	}
+	#footer>.order>.cx>.uname,#footer>.order>.cx>.phone,#footer>.order>.cx>.price{
+	  height:50px;
+		width:170px;
+		border:0;
+		padding:0 20px;
+		font-size:18px;
+		border-radius:15px;
+		outline:none;
+	}
+	#footer>.order>.cx>.uname,#footer>.order>.cx>.phone{
+	  margin-right:160px;
+	}
+	#footer>.order>.cx>.uname{
+	  background:#ac7d0d;
+	}
+	#footer>.bq{
+	  width:100%;
+		height:575px;
+	  background:#111;
+		margin-top:70px;
+		color:#fff;
+	}
+	#footer>.bq>.title{
+	  width:1000px;
+		margin:70px auto 0;
+	}
+	#footer>.bq>.title>.left{
+		width:500px;
+		height:400px;
+	  line-height:25px;
+		float:left;
+	}
+	#footer>.bq>.title>.right{
+	  line-height:25px;
+		height:400px;
+		width:500px;
+		float:left;
+	}
+	#footer>.bq>.title>.right>img{
+	  width:150px;
+		margin-top:30px;
+	}
+	#footer>.bq>.title>.left>.ts,#footer>.bq>.title>.left>.zx{
+	  width:500px;
+		margin:30px 0;
+	}
+	#footer>.bq>.title>.bottom{
+	  width:1000px;
+		line-height:25px;
+	}

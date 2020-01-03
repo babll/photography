@@ -1,0 +1,254 @@
+  *{
+    margin:0;
+	  padding:0;
+	  font-family:"ARIAL";
+  }
+  a{
+	  text-decoration:none;
+	}
+	#container{
+	  width:100%;
+	}
+	#header{
+	  width:100%;
+	}
+	#header>.bk>img{
+		height:80px;
+	}
+	#header>.bk{
+	  width:100%;
+	  border-bottom:3px solid #333;
+	}
+	#header>.bk>.title{
+	  margin-left:536px;
+	}
+	#nav{
+	  	border-bottom:1px solid #333;
+	}
+	#nav>ul{
+		width:1120px;
+		height:60px;
+		list-style:none;
+		margin:0 auto;
+	
+	}
+	#nav li{
+	  width:120px;
+		line-height:60px;
+		float:left;
+		text-align:center;
+		font-size:26px;
+		margin:0 10px;
+  }
+	#nav .lf a{
+	  background:#ac7d0d;
+		color:#fff;
+	}
+	#nav a{
+		color:#333;
+	}
+	#nav a:hover{
+	  background:#ac7d0d;
+		color:#fff;
+	}
+	#header .shuffling{
+	  height:500px;
+		width:100%;
+		margin-top:15px;
+		position:relative;
+	}
+	#header .shuffling>.c1{
+	  clear:both;
+	}
+	#header .shuffling img{
+	  width:100%;
+		height:100%;
+	}
+	#header .shuffling ul{
+	  list-style:none;
+		position:absolute;
+		bottom:20px;
+		left:675.5px;
+	}
+	#header .shuffling li{
+	  width:10px;
+		height:10px;
+		border-radius:50px;
+		background:#999;
+		float:left;
+		margin:0 4px;
+	}
+	#header .shuffling .l1{
+	  width:4px;
+		height:4px;
+		border:3px solid #fff;
+	}
+	
+	#main{width:100%;}
+	#main>.top{
+	  width:100%;
+		display:flex;
+		flex-direction:column;
+		align-items:center;
+		margin-top:70px;
+	}
+	#main>.top>img{margin-bottom:60px;}
+	#main>.top>.content{
+	  width:830px;
+		display:flex;
+		justify-content:space-between;
+	}
+	#main>.top>.content>.img1{
+	  width:400px;
+	}
+	#main>.top>.content>.img1>img{
+	  width:400px;
+		height:392px;
+	}
+	.top .img1>p{
+	  font-size:24px;
+		color:#333;
+		text-align:center;
+		margin:10px 0 20px;
+	}
+	.top .text{
+	  width:400px;
+		color:#333;
+	}
+	.top .text>h2{
+	  font-size:28px;
+		text-align:right;
+		margin-top:30px;
+		margin-bottom:40px;
+	}
+	.top .text>p{
+	  font-size:16px;
+		line-height:26px;
+		margin-bottom:40px;
+	}
+	.top .text>span{font-size:16px;float:right;}
+	.center{
+	  width:100%;
+		display:flex;
+		flex-direction:column;
+		align-items:center;
+		background-image:url("../image/contact_us/1.jpg");
+	}
+	.center>.picture{
+	  width:1040px;
+		margin-top:70px;
+		margin-bottom:30px;
+		display:flex;
+		justify-content:space-between;
+	}
+	.center>p{
+	  font-size:18px;
+		color:#fff;
+	}
+  .bottom{
+	  width:100%;
+		display:flex;
+		flex-direction:column;
+		align-items:center;
+		margin-bottom:40px;
+	}
+	.bottom>.picture{
+	  width:950px;
+		display:flex;
+		flex-wrap:wrap;
+		justify-content:space-between;
+		margin-top:40px;
+		margin-bottom:30px;
+	}
+	.bottom>.picture>img{
+	  width:300px;
+		height:300px;
+	}
+	.bottom>.picture>img:first-child{
+	  margin-bottom:25px;
+	}
+	.bottom>p{
+	  font-size:18px;
+	}
+
+
+	#footer{
+	  width:100%
+	}
+	#footer>.order{
+	  height:370px;
+		background-image:url("../image/sy/28.png");
+	}
+	#footer>.order>h1{
+		width:545px;
+	  font-size:36px;
+		color:#fff;
+		margin:34px auto 0;
+	}
+	#footer>.order>p{
+	  width:216px;
+	  font-size:24px;
+		color:#fff;
+		margin:5px auto;
+	}
+	#footer>.order>h3{
+	  width:340px;
+		font-size:28px;
+		color:#fff;
+		margin:5px auto;
+	}
+	#footer>.order>.cx{
+		width:960px;
+	  height:50px;
+		margin:100px auto 0;
+	}
+	#footer>.order>.cx>.uname,#footer>.order>.cx>.phone,#footer>.order>.cx>.price{
+	  height:50px;
+		width:170px;
+		border:0;
+		padding:0 20px;
+		font-size:18px;
+		border-radius:15px;
+		outline:none;
+	}
+	#footer>.order>.cx>.uname,#footer>.order>.cx>.phone{
+	  margin-right:160px;
+	}
+	#footer>.order>.cx>.uname{
+	  background:#ac7d0d;
+	}
+	#footer>.bq{
+	  width:100%;
+		height:575px;
+	  background:#111;
+		margin-top:70px;
+		color:#fff;
+	}
+	#footer>.bq>.title{
+	  width:1000px;
+		margin:70px auto 0;
+	}
+	#footer>.bq>.title>.left{
+		width:500px;
+		height:400px;
+	  line-height:25px;
+		float:left;
+	}
+	#footer>.bq>.title>.right{
+	  line-height:25px;
+		height:400px;
+		width:500px;
+		float:left;
+	}
+	#footer>.bq>.title>.right>img{
+	  width:150px;
+		margin-top:30px;
+	}
+	#footer>.bq>.title>.left>.ts,#footer>.bq>.title>.left>.zx{
+	  width:500px;
+		margin:30px 0;
+	}
+	#footer>.bq>.title>.bottom{
+	  width:1000px;
+		line-height:25px;
+	}
