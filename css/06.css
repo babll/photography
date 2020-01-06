@@ -68,7 +68,7 @@
 	  list-style:none;
 		position:absolute;
 		bottom:20px;
-		left:675.5px;
+		left:45%;
 	}
 	#header .shuffling li{
 	  width:10px;
@@ -76,7 +76,7 @@
 		border-radius:50px;
 		background:#999;
 		float:left;
-		margin:0 4px;
+		margin:0 15px;
 	}
 	#header .shuffling .l1{
 	  width:4px;
@@ -121,6 +121,10 @@
 		padding:10px 15px;
 		display:inline-block;
 		margin-top:80px;
+		transition: all 0.5s;
+	}
+	.text>a:hover{
+		border-radius: 30px;
 	}
 	.text>a:last-child{
 	  background:#333;
@@ -140,6 +144,11 @@
 	  width:230px;
 		height:460px;
 		margin-bottom:40px;
+		transition: all 0.5s;
+		opacity: 0.7;
+	}
+	.center>.tp>img:hover{
+		opacity: 1;
 	}
 	.center>.tp>img:first-child{
 	  width:110px;
@@ -167,18 +176,33 @@
 	.bottom>.tp{
 	  width:950px;
 		margin:0 auto 60px;
-		display:flex;
+	
+	}
+	.bottom>.tp>ul{
+	  display:flex;
 		flex-wrap:wrap;
 		justify-content:space-between;
 	}
-	.bottom>.tp>img{
+	.bottom>.tp>ul>li{
+		list-style: none;
+		width: 300px;
+		height: 300px;
+		overflow: hidden;
+	}
+	.bottom>.tp>ul>li>img{
 	  width:300px;
 		height:300px;
+		overflow: hidden;
+		opacity: 0.7;
+		transition: all 0.5s;
 	}
-	.bottom>.tp>img:first-child{
+	.bottom>.tp li:first-child{
 	  margin-bottom:20px;
 	}
-
+	.bottom>.tp>ul>li>img:hover{
+		opacity: 1;
+		transform: scale(1.1);
+	}
 
 	#footer{
 	  width:100%
@@ -222,9 +246,7 @@
 	#footer>.order>.cx>.uname,#footer>.order>.cx>.phone{
 	  margin-right:160px;
 	}
-	#footer>.order>.cx>.uname{
-	  background:#ac7d0d;
-	}
+
 	#footer>.bq{
 	  width:100%;
 		height:575px;
@@ -235,6 +257,7 @@
 	#footer>.bq>.title{
 	  width:1000px;
 		margin:70px auto 0;
+		color: #ccc;
 	}
 	#footer>.bq>.title>.left{
 		width:500px;
@@ -248,9 +271,20 @@
 		width:500px;
 		float:left;
 	}
-	#footer>.bq>.title>.right>img{
+	.right>.qr_code{
+		position: relative;
+	}
+	.right img{
 	  width:150px;
 		margin-top:30px;
+	}
+	.right .bg{
+		width: 150px;
+		height: 149px;
+		position: absolute;
+		top:30px;
+		left: 0px;
+		background: rgba(0, 0, 0, 0.1);
 	}
 	#footer>.bq>.title>.left>.ts,#footer>.bq>.title>.left>.zx{
 	  width:500px;
